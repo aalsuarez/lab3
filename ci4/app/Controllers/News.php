@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use App\Models\NewsModel;
+use App\Models\Newsmodel;
 
 class News extends BaseController
 {
@@ -22,7 +22,7 @@ class News extends BaseController
 
     public function view($slug = null)
     {
-        $model = model(NewsModel::class);
+        $model = model(Newsmodel::class);
 
         $data['news'] = $model->getNews($slug);
 
