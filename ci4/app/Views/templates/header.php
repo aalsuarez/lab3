@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
-<?php echo link_tag('css/index.html'); ?>
+<head>
+<?php echo link_tag('css/mystyles.css'); ?>
     <title>CodeIgniter Tutorial</title>
 </head>
 <body>
