@@ -6,8 +6,8 @@
 		
 		<div class="main>
 		<h3><?= esc($guest_item['name']) ?></h3>
-		 <p><?= esc($guest_item['email']) ?>
-		 <p><?= esc($guest_item['comment']) ?>
+		 <p><?= esc($guest_item['email']) ?></p>
+		 <p><?= esc($guest_item['comment']) ?></p>
 		</div>
 
     <?php endforeach ?>
